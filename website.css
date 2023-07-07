@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+ul.navigation {
+    list-style: none; 
+    padding: 0;
+  }
+
+ul.navigation li {
+    display: inline;
+  }
+
+
