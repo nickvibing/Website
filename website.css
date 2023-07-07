@@ -1,3 +1,5 @@
+
+
 body {
     background-color: black;
     color: white;
@@ -9,13 +11,38 @@ header {
     font-size: 16px;
 }
 
-ul.navigation {
+#navigation {
     list-style: none; 
     padding: 0;
   }
 
-ul.navigation li {
+#navigation li {
     display: inline;
+    margin: 16px;
+    
   }
 
+#navigation a {
+  text-decoration: none;
+  color: white;
+}
 
+#navigation a:hover {
+  border: 1px solid white; /* Adjust color and thickness as needed */
+}
+
+#navigation a {
+  text-decoration: none;
+  color: white;
+  padding: 2px; /* Add some padding */
+}
+
+
+.title {
+  font-size: 32px;
+  
+}
+
+.introduction {
+  margin-top: 16px;
+}
